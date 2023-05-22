@@ -15,7 +15,7 @@ const HeaderLogo = (props: Props) => {
 					width={100}
 					height={100}
 					alt='Lorian shop'
-					className='mr-2'
+					className=''
 				/>
 				<span>
 					<span className='text-white  block tracking-[0.1em]'>Lorian</span>
