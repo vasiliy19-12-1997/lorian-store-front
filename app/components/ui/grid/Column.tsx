@@ -4,7 +4,9 @@ const Column: FC<PropsWithChildren<{ size: number }>> = ({
 	size,
 	children
 }) => {
-	return <div className={`col-span-${size}`}>{children}</div>
+	return (
+		<div style={{ gridColumn: `span ${size} / span ${size}` }}>{children}</div>
+	)
 }
 
 export default Column
